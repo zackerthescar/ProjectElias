@@ -6,7 +6,7 @@ This can be useful in a number of scenarios where you need a bare-bones Linux sy
 
 This set of scripts came about when I was reading [Professor Kauffman's Unix/Linux guide](https://www-users.cse.umn.edu/~kauffman/tutorials/unix-environment.html#org5d0811f) for the CSCI 2021 course here at the University of Minnesota, and realizing my Mac wouldn't be up to the task without something like this because Apple decided GDB wasn't something Mac users needed anymore. 
 
-Why the name Elias- I couldn't decide on a name, so I came up with **L**inux **I**n **A** **B**ox, and then from there the name Elias came out
+Why the name Elias- I couldn't decide on a name, so I came up with **L**inux **I**n **A** **S**cript, and then from there the name Elias came out
 # Files
 All files in .bat format are for Windows, and .sh for any other OS, although it will be mainly targeted at macOS.
 
