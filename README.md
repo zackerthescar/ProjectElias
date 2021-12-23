@@ -14,9 +14,5 @@ Why the name Elias- I couldn't decide on a name, so I came up with **L**inux **I
 # Files
 All files in .bat format are for Windows, and .sh for any other OS, although it will be mainly targeted at macOS.
 
- - boot.bat: Starts up the VM with an SDL window
- - boot-nogui.bat: Starts up the VM with nothing but a serial console
- - boot-install.bat: Starts up the VM with an SDL window and a mounted Linux install disk file
-
-Right now, the scripts expect a Debian.qcow2 image in the same folder as the script, and the boot-install script expects a Debian 11 netinst .iso in the same folder as the script. I plan to change that soon.
-
+ - boot.bat/boot.sh: Starts up the VM with an SDL window
+ - boot-nogui.bat/boot_nogui.sh: Starts up the VM with nothing but a serial console
