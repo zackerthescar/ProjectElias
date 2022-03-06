@@ -5,12 +5,12 @@
 2. Increase the virtual size of the disk. This can be done with 	`qemu-img`:
 ```qemu-img resize [image name].qcow2 +[INCREASE_SIZE]G```
 3. Edit the `boot.bat/boot.sh` and `boot-nogui.bat/boot-nogui.sh` with your desired parameters
-| Variable | Description |
-|--|--|
-| cpu | Cores to allocate to the VM  |
-| threads | Threads to allocate to the VM |
-| ram | RAM to allocate to the VM |
-| img_hdd0 | Virtual disk file |
+| Variable | Description               |
+|----------|---------------------------|
+| cpu      | Cores to allocate to VM   |
+| threads  | Threads to allocate to VM |
+| ram      | RAM to allocate to VM     |
+| img_hdd0 | Virtual disk file         |
 
 	If your CPU has hyperthreading, you should use `cpu * 2` for the thread count. Otherwise, thread count should be equal to CPU core count.
 I recommend allocating roughly 3/8th of your RAM for the VM.
