@@ -13,7 +13,7 @@ threads|Threads to allocate to VM
 ram|RAM to allocate to VM
 img\_hdd0| VM Virtual Disk file
 
-	If your CPU has hyperthreading, you should use `cpu * 2` for the thread count. Otherwise, thread count should be equal to CPU core count.
+If your CPU has hyperthreading, you should use `cpu * 2` for the thread count. Otherwise, thread count should be equal to CPU core count.
 I recommend allocating roughly 3/8th of your RAM for the VM.
 Just set the `img_hdd0` variable to the Debian image you just downloaded and resized.
 
